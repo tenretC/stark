@@ -25,6 +25,7 @@
     "@types/core-js": "0.9.46",
     "@types/jasmine": "2.5.36",
     "@types/node": "6.0.101",
+    "@types/uuid": "3.4.3",
     "cerialize": "0.1.18",
     "class-validator": "0.7.3",
     "core-js": "2.5.3",
@@ -47,7 +48,11 @@
     "@angular/compiler-cli": "5.2.9",
     "@angular/core": "5.2.9",
     "@angular/platform-browser": "5.2.9",
-    "@angular/platform-browser-dynamic": "5.2.9"
+    "@angular/platform-browser-dynamic": "5.2.9",
+    "@ngrx/store": "5.2.0",
+    "moment": "2.21.0",
+    "typescript": "2.6.2",
+    "uuid": "3.2.1"
   },
   "peerDependencies": {
     "@angular/common": "5.x",
