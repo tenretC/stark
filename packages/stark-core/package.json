@@ -22,16 +22,17 @@
     "npm": ">=5.3.0"
   },
   "dependencies": {
+    "@ngrx/store": "5.2.0",
     "@types/core-js": "0.9.46",
+    "@types/jasmine": "2.8.6",
     "@types/node": "6.0.102",
     "@types/uuid": "3.4.3",
     "cerialize": "0.1.18",
     "class-validator": "0.7.3",
     "core-js": "2.5.3",
     "deep-freeze-strict": "1.1.1",
-    "rxjs": "5.5.6",
-    "@ngrx/store": "5.2.0",
     "moment": "2.21.0",
+    "rxjs": "5.5.6",
     "typescript": "2.6.2",
     "uuid": "3.2.1",
     "zone.js": "0.8.20"
@@ -43,7 +44,7 @@
     "@angular/core": "5.2.9",
     "@angular/platform-browser": "5.2.9",
     "@angular/platform-browser-dynamic": "5.2.9",
-    "@nationalbankbelgium/stark-build": "file:../../dist/packages-dist/stark-build/nationalbankbelgium-stark-build-10.0.0-alpha.0-ab75afb.tgz",
+    "@nationalbankbelgium/stark-build": "file:../../dist/packages-dist/stark-build/nationalbankbelgium-stark-build-10.0.0-alpha.0-5eb9d58.tgz",
     "@nationalbankbelgium/stark-testing": "../stark-testing",
     "tslint": "5.9.1"
   },
@@ -54,6 +55,7 @@
     "@angular/platform-browser-dynamic": "5.x"
   },
   "scripts": {
+    "ngc": "ngc",
     "lint": "tslint --config tslint.json --project ./tsconfig.json --format codeFrame",
     "test-fast": "node ./node_modules/@nationalbankbelgium/stark-testing/node_modules/karma/bin/karma start ./karma.conf.typescript.js",
     "test-fast:ci": "node ./node_modules/@nationalbankbelgium/stark-testing/node_modules/karma/bin/karma start karma.conf.typescript.ci.js",
