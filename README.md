@@ -7,6 +7,12 @@
 > An Angular 5+ based front-end framework built on top of [Angular](https://angular.io)
 > Stark features... An awesome reusable build using [Webpack](https://webpack.js.org/), built-in support for state of the art front-end tech  
 
+[![Build Status](https://travis-ci.org/NationalBankBelgium/stark.svg?branch=master)](https://travis-ci.org/NationalBankBelgium/stark)
+[![npm version](https://badge.fury.io/js/%40NationalBankBelgium%2Fstark.svg)](https://www.npmjs.com/@NationalBankBelgium/stark)
+[![Dependency Status](https://david-dm.org/NationalBankBelgium/stark.svg)](https://david-dm.org/NationalBankBelgium/stark) 
+[![devDependency Status](https://david-dm.org/NationalBankBelgium/stark/dev-status.svg)](https://david-dm.org/NationalBankBelgium/stark#info=devDependencies)
+[![Coverage Status](https://coveralls.io/repos/github/NationalBankBelgium/stark/badge.svg?branch=master)](https://coveralls.io/github/NationalBankBelgium/stark?branch=master)
+
 Stark provides main building blocks for accelerating front-end development:
 * a solid reusable build based on Webpack  
 * a starter inspired by [Angular Starter](https://github.com/gdi2290/angular-starter) by [AngularClass](https://angularclass.com) and Google's [Web Starterk Kit](https://github.com/google/web-starter-kit)
@@ -63,3 +69,24 @@ Please follow our [contribution guidelines](/CONTRIBUTING.md)
 
 ## License
 This project and all associated source code is licensed under the terms of the [MIT License](/LICENSE).
+
+## Thank you notes :)
+We'd like to thank the following companies who support the open source community with great tools and platforms.
+
+### Jetbrains
+We're supported by [Jetbrains](https://www.jetbrains.com) and their awesome [support for open source](https://www.jetbrains.com/buy/opensource/), thanks to which we are able to use the best products on the market to work on this open source project!
+
+<a href="https://www.jetbrains.com"><img src="http://www.underconsideration.com/brandnew/archives/jetbrains_logo_detail.jpg" width="144px"></a>
+
+### Travis
+We're supported by [Travis](https://travis-ci.org/)
+
+<a href="https://travis-ci.org/"><img src="https://travis-ci.com/images/logos/TravisCI-Full-Color.png" width="144px"></a>
+
+### BrowserStack
+We're supported by [BrowserStack](https://www.browserstack.com)
+
+<a href="https://www.browserstack.com"><img src="https://bstacksupport.zendesk.com/attachments/token/22M109zCUfkKcqXrJKzapE2f7/?name=browserstack-logo-600x315.png" width="144px"></a>
+
+
+
