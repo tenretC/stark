@@ -1,0 +1,42 @@
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* Stark: src/core/pages/login/login-page.component.pcss */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+/********** STARK LOGIN VIEW **********/
+.stark-login-page {
+  max-height: 95%;
+  display: flex;
+  flex-direction: column;
+  & content {
+	display: block;
+	overflow-y: auto;
+  }
+  & .dialog-title {
+	font-size: 2em;
+  }
+  & ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	& a {
+	  display: block;
+	  padding: 8px;
+	  color: inherit;
+	  text-decoration: none;
+	  border-bottom: solid 1px var(--divider-color);
+	  &:hover {
+		background-color: var(--offwhite);
+	  }
+	}
+	& h3 {
+	  font-weight: bold;
+	}
+	& p {
+	  margin: 0;
+	}
+  }
+}
+
+/* -------------------------------------------------- */
+/* end Stark; src/core/pages/login/login-page.component.pcss */
+/* -------------------------------------------------- */

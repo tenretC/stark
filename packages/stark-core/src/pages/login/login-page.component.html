@@ -1,0 +1,22 @@
+<div class="stark-core-app-page stark-login-page"
+	 role="alertdialog"
+	 aria-busy="true"
+	 aria-live="assertive"
+	 translate-cloak="STARK.LOGIN.TITLE"
+> <!-- adds "translate-cloak" class while loading translations -->
+	<header><i></i></header>
+	<content>
+		<h2 class="dialog-title" translate>STARK.LOGIN.TITLE</h2>
+		<div ng-if="$ctrl.userProfilesAvailable()">
+			<ul>
+				<li	ng-repeat="user in $ctrl.users track by $index">
+					<a href="" ng-click="$ctrl.authenticateUser(user)">
+						<h3>{{user.firstName}} {{user.lastName}}</h3>
+						<p>({{$ctrl.getUserRoles(user)}})</p>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div ng-if="!$ctrl.userProfilesAvailable()" translate>STARK.LOGIN.NO_PROFILE</div>
+	</content>
+</div>
